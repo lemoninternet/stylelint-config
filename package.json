@@ -1,0 +1,25 @@
+{
+  "name": "@lemoninternet/stylelint-config",
+  "version": "0.0.1",
+  "description": "Stylint shareable config",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:lemoninternet/stylelint-config.git"
+  },
+  "keywords": [
+    "stylelint",
+    "stylelintconfig",
+    "config"
+  ],
+  "peerDependencies": {
+    "stylelint": ">= 9"
+  },
+  "author": "Rick de Graaff <rick@lemon-internet.nl>",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "stylelint": "^9.2.0",
+    "stylelint-config-sass-guidelines": "^5.0.0",
+    "stylelint-selector-bem-pattern": "^2.0.0"
+  }
+}
