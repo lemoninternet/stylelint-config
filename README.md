@@ -8,7 +8,7 @@ In your configuration set `extends` to use this package.
 
 ```json
 {
-    "extends": "stylelint-config"
+    "extends": "@lemoninternet/stylelint-config"
 }
 ```
 
