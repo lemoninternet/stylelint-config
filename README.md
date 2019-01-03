@@ -2,6 +2,9 @@
 
 Currently only extends `stylelint-config-recommended`.
 
+## Installing
+` $ yarn add @lemoninternet/stylelint-config stylelint-config-recommended stylelint --dev `
+
 ## Usage
 
 In your configuration set `extends` to use this package.
@@ -10,6 +13,16 @@ In your configuration set `extends` to use this package.
 {
     "extends": "@lemoninternet/stylelint-config"
 }
+```
+
+### Package.json
+```
+"pre-commit": [
+        "stylelint"
+],
+"scripts": {
+        "stylelint": "node_modules/stylelint/bin/stylelint.js \"src/**/*.scss\""
+},
 ```
 
 ### Loading the configuration object
