@@ -15,6 +15,7 @@ module.exports = {
     "indentation": 4,
     "max-nesting-depth": 5,
     "string-quotes": "double",
+    "selector-class-pattern": null,
     "at-rule-no-unknown": [
       true,
       {
